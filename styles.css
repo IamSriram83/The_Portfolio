@@ -35,7 +35,6 @@ a:hover {
     z-index: 1000;
 }
 
-
 .logo {
     font-size: 28px;
     font-weight: 700;
@@ -79,16 +78,16 @@ a:hover {
     animation: fadeIn 2s ease-in;
 }
 
-.home-content h1 {
+.home-section h1 {
     font-size: 48px;
     margin-bottom: 20px;
 }
 
-.home-content .highlight {
+.home-section .highlight {
     color: #ff6b6b;
 }
 
-.home-content p {
+.home-section p {
     font-size: 20px;
     margin-bottom: 30px;
 }
