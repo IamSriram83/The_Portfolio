@@ -198,7 +198,7 @@ a:hover {
 }
 
 .contact-form input, .contact-form textarea {
-    width: 80%;
+    width: 100%;
     padding: 12px;
     margin-bottom: 20px;
     border: none;
@@ -264,5 +264,6 @@ footer p {
         flex-direction: column;
     }
 }
+
 
 
