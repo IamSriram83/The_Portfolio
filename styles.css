@@ -229,58 +229,6 @@ a:hover {
     box-shadow: 0px 4px 15px rgba(255, 107, 107, 0.4);
 }
 
-
-
-/* Container for the scroll button */
-.footer-scroll-top {
-    position: fixed;
-    bottom: 25px; /* Distance from bottom */
-    right: 25px;  /* Distance from right */
-    z-index: 999;
-}
-
-/* The circular link/button */
-.footer-scroll-circle a {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 45px;
-    height: 45px;
-    border-radius: 50%; /* Makes it a circle */
-    background-color: #333; /* Default dark color */
-    color: #fff; /* Icon color */
-    text-decoration: none;
-    transition: all 0.3s ease;
-}
-
-/* Light style variation */
-.style-light .scroll-top {
-    background-color: #f8f9fa;
-    color: #333;
-    border: 1px solid #ddd;
-}
-
-/* Hover effects */
-.btn-hover-nobg:hover {
-    background-color: #007bff; /* Primary blue on hover */
-    color: #fff;
-    transform: translateY(-3px); /* Subtle lift effect */
-}
-
-/* Icon stacking (Font Awesome specific) */
-.fa-stack {
-    font-size: 1.2em;
-    line-height: 45px;
-}
-
-
-
-
-
-
-
-
-
 /* Footer */
 footer {
     background-color: #222;
@@ -317,6 +265,7 @@ footer p {
         flex-direction: column;
     }
 }
+
 
 
 
