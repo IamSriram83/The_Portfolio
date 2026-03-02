@@ -2,9 +2,8 @@
 document.querySelector('.contact-form').addEventListener('submit', function (e) {
     e.preventDefault();
     alert('Message Sent Successfully!');
-});
 
-a
+    a
 function myFunction() {
   var x = document.getElementById("myTopnav");
   if (x.className === "topnav") {
@@ -13,3 +12,4 @@ function myFunction() {
     x.className = "topnav";
   }
 }
+});
