@@ -12,6 +12,7 @@ body {
     line-height: 1.6;
 }
 
+
 a {
     text-decoration: none;
     color: inherit;
@@ -34,6 +35,40 @@ a:hover {
     align-items: center;
     z-index: 1000;
 }
+
+.navbar {
+  background-color: #333;
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  color: white;
+}
+
+.back-btn {
+  text-decoration: none;
+  color: #04AA6D; /* Active green color */
+  font-weight: bold;
+  margin-right: auto; /* Pushes the nav-links to the right */
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  margin-left: 20px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+}
+
+
+
 
 .logo {
     font-size: 28px;
@@ -264,6 +299,7 @@ footer p {
         flex-direction: column;
     }
 }
+
 
 
 
