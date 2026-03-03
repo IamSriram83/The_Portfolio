@@ -12,6 +12,12 @@ body {
     line-height: 1.6;
 }
 
+/* NAVBAR */
+.navbar{
+    background:black;
+    background:linear-gradient(90deg,black,white);
+    padding:0 20px;
+}
 
 /* SUBMENU */
 .navbar ul li ul{
@@ -315,6 +321,7 @@ footer p {
         flex-direction: column;
     }
 }
+
 
 
 
