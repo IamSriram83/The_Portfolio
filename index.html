@@ -9,43 +9,27 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-<div class="logo">Sriram</div>
 
-<div class="navbar">
-<div class="menu-toggle" onclick="toggleMenu()">
-<i class="fas fa-bars"></i> Menu
-</div>
-
-<ul>
-
-<li><a href="#"><i class="fas fa-home"></i> Home</a></li>
-
-<li>
-<a href="#"><i class="fas fa-puzzle-piece"></i> Programs</a>
-<ul>
-<li><a href="#"><i class="fas fa-brain"></i> Autism Therapy</a></li>
-<li><a href="#"><i class="fas fa-comments"></i> Speech Therapy</a></li>
-<li><a href="#"><i class="fas fa-hands-helping"></i> OT Therapy</a></li>
-<li><a href="#"><i class="fas fa-heart"></i> Life Skills</a></li>
-</ul>
-</li>
-
-<li>
-<a href="#"><i class="fas fa-users"></i> Activities</a>
-<ul>
-<li><a href="#"><i class="fas fa-umbrella-beach"></i> Beach Visit</a></li>
-<li><a href="#"><i class="fas fa-paint-brush"></i> Art & Craft</a></li>
-<li><a href="#"><i class="fas fa-running"></i> Outdoor Games</a></li>
-</ul>
-</li>
-
-<li><a href="#"><i class="fas fa-image"></i> Gallery</a></li>
-<li><a href="#"><i class="fas fa-phone"></i> Contact</a></li>
-
-</ul>
-</div>
-
-<!-- Home Section -->
+    <!-- Navbar -->
+    <nav class="navbar">
+    <div class="logo">Sriram</div>
+    <!-- Hidden Checkbox to toggle menu state -->
+    <input type="checkbox" id="menu-toggle">
+    <!-- Label acts as the hamburger icon and is linked to the checkbox via 'for' attribute -->
+    <label for="menu-toggle" class="hamburger-icon">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+    </label>
+    <!-- Navigation Links -->
+    <div class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </div>
+</nav>
+    <!-- Home Section -->
     <section class="home" id="home">
         <div class="home-section">
             <h1>Hello, I'm <span class="highlight">Sriram</span></h1>
@@ -90,6 +74,7 @@
             <input type="text" placeholder="Your Name" required>
             <input type="email" placeholder="Your Email" required>
             <textarea placeholder="Your Message" required></textarea>
+            <br>
             <button type="submit" class="btn">Send Message</button>
         </form>
     </section>
@@ -102,16 +87,3 @@
     <script src="scrips.js"></script>
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
